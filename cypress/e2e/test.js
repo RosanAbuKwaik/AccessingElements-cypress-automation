@@ -6,7 +6,7 @@ describe("Accessing Elements", () => {
 
   });
   
-  it.skip("should be able to add items to the to do list", () => {
+  it.only("should be able to add items to the to do list", () => {
     cy.wait(3000);
     cy.get('input[placeholder = "What needs to be done?"]').type(
       "watch cypress course {enter}"

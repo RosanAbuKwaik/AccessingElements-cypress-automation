@@ -11,6 +11,7 @@
     "cypress": "^12.17.0"
   },
   "dependencies": {
+    "@applitools/eyes-cypress": "^3.34.1",
     "aggregate-error": "^3.1.0",
     "ansi-colors": "^4.1.3",
     "ansi-escapes": "^4.3.2",
